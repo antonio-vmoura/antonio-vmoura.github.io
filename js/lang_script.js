@@ -12,7 +12,7 @@ var lang_en = true;
 
 function changeLanguage() {
   if (lang_en == false) {
-    language_button.innerHTML = "Português";
+    language_button.innerHTML = "Language: &#x1F1E7;&#x1F1F7;";
     about_button.innerHTML = "About";
     experience_button.innerHTML = "Experience";
     education_button.innerHTML = "Education";
@@ -26,13 +26,13 @@ function changeLanguage() {
     }
     lang_en = true;
   } else {
-    language_button.innerHTML = "English";
+    language_button.innerHTML = "Language: &#x1F1FA;&#x1F1F8;";
     about_button.innerHTML = "Sobre";
     experience_button.innerHTML = "Experiência";
     education_button.innerHTML = "Educação";
     skills_button.innerHTML = "Habilidades";
     publications_button.innerHTML = "Interesses";
-    resume_button.href="https://ahmoura.github.io/assets/resume_pt.pdf";
+    resume_button.href="https:/antonio-vmoura.github.io/assets/resume_pt.pdf";
     
     for (i = 0; i < en.length; i++) {
       en[i].style.display = "none";
