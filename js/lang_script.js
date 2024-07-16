@@ -12,7 +12,7 @@ var lang_en = true;
 
 function changeLanguage() {
   if (lang_en == false) {
-    language_button.innerHTML = "Language: &#x1F1E7;&#x1F1F7;";
+    language_button.innerHTML = "Language: &#x1F1FA;&#x1F1F8;";
     about_button.innerHTML = "About";
     experience_button.innerHTML = "Experience";
     education_button.innerHTML = "Education";
@@ -26,7 +26,7 @@ function changeLanguage() {
     }
     lang_en = true;
   } else {
-    language_button.innerHTML = "Language: &#x1F1FA;&#x1F1F8;";
+    language_button.innerHTML = "Lingua: &#x1F1E7;&#x1F1F7;";
     about_button.innerHTML = "Sobre";
     experience_button.innerHTML = "Experiência";
     education_button.innerHTML = "Educação";
