@@ -1,0 +1,273 @@
+# Site
+repository: antonio-vmoura/antonio-vmoura.github.io
+favicon: assets/img/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Antônio Rodrigues
+title: Data Scientist | IT Consultant | Back-end Developer
+
+email: avmoura.r@gmail.com
+# email_title: Email
+
+# phone: +55 (61) 988186-0680
+# phone_title: Phone
+
+address: Brasília · Federal District, Brazil
+# address_title: Address
+
+#  Email (Email title override)
+#  Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  antonio-vmoura
+# stackoverflow_username: "00000001"
+instagram_username: antonio_vmoura
+linkedin_username: antonio-vmoura
+orcid_username: 0000-0002-0332-6642
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://antonio-vmoura.github.io/assets/resume_en.pdf
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: assets/img/av_perfil_2.jpg
+about_content: |
+  <p class="lead lang_en mb-5">
+    Data Scientist with over 4 years of experience, specializing in machine learning and pursuing a degree in Computer Science at the University of Brasília (UnB). I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. I am passionate about artificial intelligence, with published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
+  </p>
+
+content:
+  - title: Skills
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: Hard Skills
+        description: |
+          <ul class="fa-ul mb-0 lang_en" style="flex: 1; margin-left: 20px;">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Python
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              R; C++; Ruby; Node
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              AWS; Azure
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              SAS Applications
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              REST APIs
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              MySQL; Mongodb; Postgresql
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Spark; Hadoop
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Docker; Docker compose
+            </li>
+          </ul>
+          
+      - layout: left
+        title: Soft Skills
+        description: |
+          <ul class="fa-ul mb-0 lang_en" style="flex: 1; margin-left: 20px;">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Communication
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Problem Solving
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Critical Thinking
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Creativity
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Leadership
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Teamwork
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Time Management
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Organizational Skills
+            </li>
+          </ul>
+        
+  - title: Professional Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: GMW Consultoria
+        sub_title: Data scientist and it consultant
+        caption: Jul 2022 - Present
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          <p class="lang_en">
+            &bull; Implemented SAS solutions for data analysis, predictive modeling, decision automation, and data visualization using tools like SAS Studio, Decision Manager, and Visual Analytics.
+          </p>
+          <p class="lang_en">
+            &bull; Developed solutions in Python, Java, Ruby, and SQL for task automation and system integration.
+          </p>
+          <p class="lang_en">
+            &bull; Implemented and managed cloud solutions on Azure, ensuring scalability and availability.
+          </p>
+          <p class="lang_en">
+            &bull; Administered PostgreSQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+          </p>
+          <p class="lang_en">
+            &bull; Developed REST APIs in Python with Flask for system integration, efficiently exposing data and functionalities.
+          </p>
+          <p class="lang_en">
+            &bull; Utilized Big Data tools like Hadoop and Spark for processing and analyzing large data volumes.
+          </p>
+          <p class="lang_en">
+            &bull; Implemented and trained a LLM using Python to analyze documents and automate rule generation.
+          </p>
+
+      - layout: left
+        border: weak
+        title: 4 Hábitos
+        sub_title: Back-end Developer
+        caption: May 2021 - Jul 2022
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          <p class="lang_en">
+            &bull; Implemented cloud solutions using Azure and AWS, provisioning resources, configuring services, and ensuring application scalability and availability.
+          </p>
+          <p class="lang_en">
+            &bull; Developed interactive dashboards in Power BI, integrating data from multiple sources to create clear and intuitive visualizations, facilitating strategic decision-making.
+          </p>
+          <p class="lang_en">
+            &bull; Developed AI models in Python and Azure, applying deep learning techniques for object classification in images.
+          </p>
+          <p class="lang_en">
+            &bull; NoSQL databases like MongoDB and CosmosDB, ensuring high availability, scalability, and performance, along with data modeling and query optimization.
+          </p>
+          <p class="lang_en">
+            &bull; Utilized Python for web scraping to automate data collection and extraction of relevant information for analysis.
+          </p>
+          <p class="lang_en">
+            &bull; Developed GraphQL APIs in Ruby and Node.js, providing a flexible and efficient interface for client-server communication.
+          </p>
+
+      - layout: left
+        # border: weak
+        title: Filterfeed
+        sub_title: Back-end Developer
+        caption: Mar 2020 - May 2021
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          <p class="lang_en">
+            &bull; Applied NLP techniques in Python for sentiment analysis, information extraction, and text classification using libraries like NLTK and spaCy.
+          </p>
+          <p class="lang_en">
+            &bull; Manipulated and analyzed data using Python, performing data cleaning, transformation, and visualization to generate insights and support decision-making.
+          </p>
+          <p class="lang_en">
+            &bull; Administered MySQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+          </p>
+          <p class="lang_en">
+            &bull; Developed REST APIs in Python with Django for system integration, exposing data and functionalities following best development and security practices.
+          </p>
+          <p class="lang_en">
+            &bull; Developed chatbots in Python and MySQL, using NLP techniques to filter important information, enhancing user experience with the data.
+          </p>
+          <p class="lang_en">
+            &bull; Implemented Docker/Docker Compose environments to facilitate application distribution and execution, ensuring portability and consistency across different environments.
+          </p>
+        
+  - title: Educational Qualifications
+    layout: list
+    content:
+      - layout: top
+        title: Universidade de Brasília (UnB)
+        sub_title: Bachelor Degree In Computer Science
+        caption: Jul 2019 - Dec 2024
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+
+      - layout: top
+        title: Escola Técnica de Ceilândia (ETC)
+        sub_title: Technical Degree In Informatics
+        caption: Jan 2017 - Dec 2018
+
+  - title: Publications
+    layout: text
+    content: |
+      <p class="lang_en">
+        &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
+      </p>
+      <br>
+      <p class="lang_pt">
+        &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
+      </p>
+
+# Footer
+footer_show_references: true
+references_title:
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
