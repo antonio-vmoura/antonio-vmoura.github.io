@@ -61,40 +61,32 @@ content:
             Hard Skills
           </div>
         description: |
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Python
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              R; C++; Ruby; Node
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              AWS; Azure
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              SAS Applications
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              REST APIs
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              MySQL; Mongodb; Postgresql
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Spark; Hadoop
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Docker; Docker compose
-            </li>
-          </ul>
+          <div>
+            <p>
+              &bull; Python
+            </p>
+            <p>
+              &bull; R; C++; Ruby; Node
+            </p>
+            <p>
+              &bull; AWS; Azure
+            </p>
+            <p>
+              &bull; SAS Applications
+            </p>
+            <p>
+              &bull; REST APIs
+            </p>
+            <p>
+              &bull; MySQL; Mongodb; Postgresql
+            </p>
+            <p>
+              &bull; Spark; Hadoop
+            </p>
+            <p>
+              &bull; Docker; Docker compose
+            </p>
+          </div>
           
       - layout: left
         title: |    
@@ -105,75 +97,59 @@ content:
             Soft Skills
           </div>
         description: |
-          <ul class="fa-ul mb-0 lang_en">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Communication
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Problem Solving
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Critical Thinking
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Creativity
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Leadership
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Teamwork
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Time Management
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Organizational Skills
-            </li>
-          </ul>
+          <div class="lang_en">
+            <p>
+              &bull; Communication
+            </p>
+            <p>
+              &bull; Problem Solving
+            </p>
+            <p>
+              &bull; Critical Thinking
+            </p>
+            <p>
+              &bull; Creativity
+            </p>
+            <p>
+              &bull; Leadership
+            </p>
+            <p>
+              &bull; Teamwork
+            </p>
+            <p>
+              &bull; Time Management
+            </p>
+            <p>
+              &bull; Organizational Skills
+            </p>
+          </div>
 
-          <ul class="fa-ul mb-0 lang_pt">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Comunicação
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Solução de problemas
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Pensamento crítico
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Criatividade
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Liderança
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Trabalho em equipe
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Gerenciamento de tempo
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Habilidades organizacionais
-            </li>
-          </ul>
+          <div class="lang_pt">
+            <p>
+              &bull; Comunicação
+            </p>
+            <p>
+              &bull; Solução de problemas
+            </p>
+            <p>
+              &bull; Pensamento crítico
+            </p>
+            <p>
+              &bull; Criatividade
+            </p>
+            <p>
+              &bull; Liderança
+            </p>
+            <p>
+              &bull; Trabalho em equipe
+            </p>
+            <p>
+              &bull; Gerenciamento de tempo
+            </p>
+            <p>
+              &bull; Habilidades organizacionais
+            </p>
+          </div>
         
   - title: |
       <div class="lang_en">
@@ -188,19 +164,19 @@ content:
         border: weak
         title: GMW Consultoria
         sub_title: |
-          <div class="lang_en">
+          <p class="lang_en">
             Data scientist and it consultant
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Cientista de dados e Consultor de TI
-          </div>
+          </p>
         caption: |
-          <div class="lang_en">
+          <p class="lang_en">
             Jul 2022 - Present
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Jul 2022 - Presente
-          </div>
+          </p>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
@@ -256,19 +232,19 @@ content:
         border: weak
         title: 4 Hábitos
         sub_title: |
-          <div class="lang_en">
+          <p class="lang_en">
             Back-end Developer
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Desenvolvedor Back-end
-          </div>
+          </p>
         caption: |
-          <div class="lang_en">
+          <p class="lang_en">
             May 2021 - Jul 2022
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Mai 2021 - Jul 2022
-          </div>
+          </p>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
@@ -314,22 +290,22 @@ content:
           </div>
 
       - layout: left
-        # border: weak
+        border: weak
         title: Filterfeed
         sub_title: |
-          <div class="lang_en">
+          <p class="lang_en">
             Back-end Developer
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Desenvolvedor Back-end
-          </div>
+          </p>
         caption: |
-          <div class="lang_en">
+          <p class="lang_en">
             Mar 2020 - May 2021
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Mar 2020 - Mai 2021
-          </div>
+          </p>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
@@ -373,6 +349,37 @@ content:
               &bull; Implementei ambientes Docker/Docker Compose para facilitar a distribuição e execução de aplicações, garantindo portabilidade e consistência em diferentes ambientes.
             </p>
           </div>
+
+      - layout: left
+        # border: weak
+        title: Freelancer
+        sub_title: |
+          <p class="lang_en">
+            Back-end Developer
+          </p>
+          <p class="lang_pt">
+            Desenvolvedor Back-end
+          </p>
+        caption: |
+          <p class="lang_en">
+            Jan 2019 - Dec 2020
+          </p>
+          <p class="lang_pt">
+            Jan 2019 - Dez 2020
+          </p>
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          <div>
+            <p class="lang_en">
+              &bull; Executed data analysis projects using Python and R for statistical analysis, data visualization, and report generation.
+            </p>
+
+            <p class="lang_pt">
+              &bull; Realizei projetos de análise de dados utilizando Python e R para análise estatística, visualização de dados e geração de relatórios.
+            </p>
+          </div>
         
   - title: |
       <div class="lang_en">
@@ -386,19 +393,19 @@ content:
       - layout: top
         title: Universidade de Brasília (UnB)
         sub_title: |
-          <div class="lang_en">
+          <p class="lang_en">
             Bachelor Degree in Computer Science
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Bacharelado em Ciência da Computação
-          </div>
+          </p>
         caption: |
-          <div class="lang_en">
+          <p class="lang_en">
             Jul 2019 - Dec 2024
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Jul 2019 - Dez 2022
-          </div>
+          </p>
         # quote: >
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
@@ -407,19 +414,19 @@ content:
       - layout: top
         title: Escola Técnica de Ceilândia (ETC)
         sub_title: |
-          <div class="lang_en">
+          <p class="lang_en">
             Technical Degree in Informatics
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Técnico em Informática
-          </div>
+          </p>
         caption: |
-          <div class="lang_en">
+          <p class="lang_en">
             Jan 2017 - Dec 2018
-          </div>
-          <div class="lang_pt">
+          </p>
+          <p class="lang_pt">
             Jan 2017 - Dez 2018
-          </div>
+          </p>
 
   - title: |
       <div class="lang_en">
@@ -433,21 +440,59 @@ content:
       <div>
         <!-- <p class="lang_en">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Published at SIBGRAPI 2024.
-        </p> -->
+        </p> 
+        <br> -->
         <p class="lang_en">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
         </p>
+        <br>
         <p class="mb-0 lang_en">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Presented at the 28th Scientific Initiation Congress of UnB and the 19th Scientific Initiation Congress of DF.
         </p>
         <!-- <p class="lang_pt">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Publicado no SIBGRAPI 2024.
-        </p> -->
+        </p> 
+        <br> -->
         <p class="lang_pt">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
         </p>
+        <br>
         <p class="mb-0 lang_pt">
           &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Apresentado no 28° Congresso de Iniciação Científica da UnB e do 19° Congresso de Iniciação Científica do DF.
+        </p>
+      </div>
+
+  - title: |
+      <div class="lang_en">
+        Language Proficiency
+      </div>
+      <div class="lang_pt">
+        Proficiência Em Idiomas
+      </div>
+    layout: text
+    content: |
+      <div>
+        <p class="lang_en">
+          &bull; Brazilian Portuguese - Native
+        </p>
+        <br>
+        <p class="mb-0 lang_en">
+          &bull; American English - Advanced
+        </p>
+        <br>
+        <p class="mb-0 lang_en">
+          &bull; Spanish - Intermediate
+        </p>
+        <p class="lang_pt">
+          &bull; Português - Nativo
+        </p>
+        <br>
+        <p class="mb-0 lang_pt">
+          &bull; Inglês americano - Avançado
+        </p>
+        <br>
+        <p class="mb-0 lang_pt">
+          &bull; Espanhol - Intermediário
         </p>
       </div>
 

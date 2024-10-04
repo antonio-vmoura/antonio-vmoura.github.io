@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
@@ -61,7 +61,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 300;
+  font-weight: 200;
   font-size:2.5rem;
   margin-bottom:3px;
 }
@@ -75,7 +75,8 @@ h5 {
 
 p, ul {
   font-size: 1.6rem;
-  text-align: justify;
+  font-weight: 300;
+  text-align: justify; //left
 }
 
 a i {
