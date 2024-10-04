@@ -6,7 +6,7 @@ var lang_en = true;
 
 function changeLanguage() {
   if (lang_en == false) {
-    language_button.innerHTML = "Language: &#x1F1FA;&#x1F1F8;";
+    language_button.innerHTML = "Website language: &#x1F1FA;&#x1F1F8;";
     lang_en = true;
 
     for (i = 0; i < en.length; i++) {
@@ -14,7 +14,7 @@ function changeLanguage() {
       pt[i].style.display = "none";
     }
   } else {
-    language_button.innerHTML = "Idioma: &#x1F1E7;&#x1F1F7;";
+    language_button.innerHTML = "Idioma do site: &#x1F1E7;&#x1F1F7;";
     lang_en = false;
 
     for (i = 0; i < en.length; i++) {

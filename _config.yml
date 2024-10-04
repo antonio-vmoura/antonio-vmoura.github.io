@@ -29,7 +29,7 @@ orcid_username: 0000-0002-0332-6642
 # Additional icon links
 additional_links:
 - title: Pdf Download
-  icon: far fa-file-pdf
+  icon: fa fa-arrow-down
   url: https://antonio-vmoura.github.io/assets/docs/resume_en.pdf
 
 # About Section
@@ -38,10 +38,10 @@ about_title: |
   <div class="lang_pt">Sobre Mim</div>
 about_profile_image: assets/img/av_perfil_2.jpg
 about_content: |
-  <p class="lead lang_en mb-5">
+  <p class="lang_en">
     Data Scientist with over 4 years of experience, specializing in machine learning and pursuing a degree in Computer Science at the University of Brasília (UnB). I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. I am passionate about artificial intelligence, with published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
   </p>
-  <p class="lead lang_pt mb-5">
+  <p class="lang_pt">
     Cientista de Dados com mais de 4 anos de experiência, especializado em aprendizado de máquina e cursando Ciência da Computação na Universidade de Brasília (UnB). Tenho uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
   </p>
 
