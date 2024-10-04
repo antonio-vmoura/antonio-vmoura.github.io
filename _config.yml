@@ -1,63 +1,67 @@
 # Site
+lang: en
 repository: antonio-vmoura/antonio-vmoura.github.io
 favicon: assets/img/favicon.ico
+darkmode: true # Dark Mode (true/false/never)
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Antônio Rodrigues
-title: Data Scientist | IT Consultant | Back-end Developer
-
-email: avmoura.r@gmail.com
-# email_title: Email
-
-# phone: +55 (61) 988186-0680
-# phone_title: Phone
-
-address: Brasília · Federal District, Brazil
-# address_title: Address
-
-#  Email (Email title override)
-#  Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
-darkmode: true
+title: |
+  <div class="lang_en">
+    Data Scientist | IT Consultant | Back-end Developer
+  </div>
+  <div class="lang_pt">
+    Cientista de dados | Consultor de TI | Desenvolvedor back-end
+  </div>
+email: avmoura.r@gmail.com # email_title: Email
+address: Brasília · Federal District, Brazil # address_title: Address
+# phone: +55 (61) 988186-0680 # phone_title: Phone
 
 # Social links
-# twitter_username: jekyllrb
 github_username:  antonio-vmoura
-# stackoverflow_username: "00000001"
 instagram_username: antonio_vmoura
 linkedin_username: antonio-vmoura
 orcid_username: 0000-0002-0332-6642
-# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
 - title: Pdf Download
   icon: far fa-file-pdf
-  url: https://antonio-vmoura.github.io/assets/resume_en.pdf
+  url: https://antonio-vmoura.github.io/assets/docs/resume_en.pdf
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: |
+  <div class="lang_en">About Me</div>
+  <div class="lang_pt">Sobre Mim</div>
 about_profile_image: assets/img/av_perfil_2.jpg
 about_content: |
   <p class="lead lang_en mb-5">
     Data Scientist with over 4 years of experience, specializing in machine learning and pursuing a degree in Computer Science at the University of Brasília (UnB). I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. I am passionate about artificial intelligence, with published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
   </p>
+  <p class="lead lang_pt mb-5">
+    Cientista de Dados com mais de 4 anos de experiência, especializado em aprendizado de máquina e cursando Ciência da Computação na Universidade de Brasília (UnB). Tenho uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
+  </p>
 
 content:
-  - title: Skills
+  - title: |
+      <div class="lang_en">Skills</div>
+      <div class="lang_pt">Habilidades</div>
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak
-        title: Hard Skills
+        title: |
+          <div class="lang_en">
+            Hard Skills
+          </div>
+          <div class="lang_pt">
+            Hard Skills
+          </div>
         description: |
-          <ul class="fa-ul mb-0 lang_en" style="flex: 1; margin-left: 20px;">
+          <ul class="fa-ul mb-0">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
               Python
@@ -93,9 +97,15 @@ content:
           </ul>
           
       - layout: left
-        title: Soft Skills
+        title: |    
+          <div class="lang_en">
+            Soft Skills
+          </div>
+          <div class="lang_pt">
+            Soft Skills
+          </div>
         description: |
-          <ul class="fa-ul mb-0 lang_en" style="flex: 1; margin-left: 20px;">
+          <ul class="fa-ul mb-0 lang_en">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
               Communication
@@ -129,104 +139,266 @@ content:
               Organizational Skills
             </li>
           </ul>
+
+          <ul class="fa-ul mb-0 lang_pt">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Comunicação
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Solução de problemas
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Pensamento crítico
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Criatividade
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Liderança
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Trabalho em equipe
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Gerenciamento de tempo
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Habilidades organizacionais
+            </li>
+          </ul>
         
-  - title: Professional Experience
+  - title: |
+      <div class="lang_en">
+        Professional Experience
+      </div>
+      <div class="lang_pt">
+        Experiência Profissional
+      </div>
     layout: list
     content:
       - layout: left
         border: weak
         title: GMW Consultoria
-        sub_title: Data scientist and it consultant
-        caption: Jul 2022 - Present
+        sub_title: |
+          <div class="lang_en">
+            Data scientist and it consultant
+          </div>
+          <div class="lang_pt">
+            Cientista de dados e Consultor de TI
+          </div>
+        caption: |
+          <div class="lang_en">
+            Jul 2022 - Present
+          </div>
+          <div class="lang_pt">
+            Jul 2022 - Presente
+          </div>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          <p class="lang_en">
-            &bull; Implemented SAS solutions for data analysis, predictive modeling, decision automation, and data visualization using tools like SAS Studio, Decision Manager, and Visual Analytics.
-          </p>
-          <p class="lang_en">
-            &bull; Developed solutions in Python, Java, Ruby, and SQL for task automation and system integration.
-          </p>
-          <p class="lang_en">
-            &bull; Implemented and managed cloud solutions on Azure, ensuring scalability and availability.
-          </p>
-          <p class="lang_en">
-            &bull; Administered PostgreSQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
-          </p>
-          <p class="lang_en">
-            &bull; Developed REST APIs in Python with Flask for system integration, efficiently exposing data and functionalities.
-          </p>
-          <p class="lang_en">
-            &bull; Utilized Big Data tools like Hadoop and Spark for processing and analyzing large data volumes.
-          </p>
-          <p class="lang_en">
-            &bull; Implemented and trained a LLM using Python to analyze documents and automate rule generation.
-          </p>
+          <div>
+            <p class="lang_en">
+              &bull; Implemented SAS solutions for data analysis, predictive modeling, decision automation, and data visualization using tools like SAS Studio, Decision Manager, and Visual Analytics.
+            </p>
+            <p class="lang_en">
+              &bull; Developed solutions in Python, Java, Ruby, and SQL for task automation and system integration.
+            </p>
+            <p class="lang_en">
+              &bull; Implemented and managed cloud solutions on Azure, ensuring scalability and availability.
+            </p>
+            <p class="lang_en">
+              &bull; Administered PostgreSQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+            </p>
+            <p class="lang_en">
+              &bull; Developed REST APIs in Python with Flask for system integration, efficiently exposing data and functionalities.
+            </p>
+            <p class="lang_en">
+              &bull; Utilized Big Data tools like Hadoop and Spark for processing and analyzing large data volumes.
+            </p>
+            <p class="lang_en">
+              &bull; Implemented and trained a LLM using Python to analyze documents and automate rule generation.
+            </p>
+
+
+            <p class="lang_pt">
+              &bull; Implementei soluções SAS para análise de dados, modelagem preditiva, automação de decisões e visualização de informações, utilizando ferramentas como SAS Studio, Decision Manager e Visual Analytics. 
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi soluções em Python, Java, Ruby e SQL para automação de tarefas e integração de sistemas.
+            </p>
+            <p class="lang_pt">
+              &bull; Implementei e gerenciei soluções em nuvem na Azure, garantindo escalabilidade e disponibilidade.
+            </p>
+            <p class="lang_pt">
+              &bull; Administrei banco de dados PostgreSQL, modelando dados, otimizando consultas e assegurando integridade e segurança das informações. 
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi REST APIs em Python com Flask para integração de sistemas, expondo dados e funcionalidades de forma eficiente. 
+            </p>
+            <p class="lang_pt">
+              &bull; Utilizei ferramentas de Big Data como Hadoop e Spark para processamento e análise de grandes volumes de dados. 
+            </p>
+            <p class="lang_pt">
+              &bull; Implementei e treinei uma LLM utilizando Python para entender documentos e criar regras. 
+            </p>
+          </div>
 
       - layout: left
         border: weak
         title: 4 Hábitos
-        sub_title: Back-end Developer
-        caption: May 2021 - Jul 2022
+        sub_title: |
+          <div class="lang_en">
+            Back-end Developer
+          </div>
+          <div class="lang_pt">
+            Desenvolvedor Back-end
+          </div>
+        caption: |
+          <div class="lang_en">
+            May 2021 - Jul 2022
+          </div>
+          <div class="lang_pt">
+            Mai 2021 - Jul 2022
+          </div>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          <p class="lang_en">
-            &bull; Implemented cloud solutions using Azure and AWS, provisioning resources, configuring services, and ensuring application scalability and availability.
-          </p>
-          <p class="lang_en">
-            &bull; Developed interactive dashboards in Power BI, integrating data from multiple sources to create clear and intuitive visualizations, facilitating strategic decision-making.
-          </p>
-          <p class="lang_en">
-            &bull; Developed AI models in Python and Azure, applying deep learning techniques for object classification in images.
-          </p>
-          <p class="lang_en">
-            &bull; NoSQL databases like MongoDB and CosmosDB, ensuring high availability, scalability, and performance, along with data modeling and query optimization.
-          </p>
-          <p class="lang_en">
-            &bull; Utilized Python for web scraping to automate data collection and extraction of relevant information for analysis.
-          </p>
-          <p class="lang_en">
-            &bull; Developed GraphQL APIs in Ruby and Node.js, providing a flexible and efficient interface for client-server communication.
-          </p>
+          <div>
+            <p class="lang_en">
+              &bull; Implemented cloud solutions using Azure and AWS, provisioning resources, configuring services, and ensuring application scalability and availability.
+            </p>
+            <p class="lang_en">
+              &bull; Developed interactive dashboards in Power BI, integrating data from multiple sources to create clear and intuitive visualizations, facilitating strategic decision-making.
+            </p>
+            <p class="lang_en">
+              &bull; Developed AI models in Python and Azure, applying deep learning techniques for object classification in images.
+            </p>
+            <p class="lang_en">
+              &bull; NoSQL databases like MongoDB and CosmosDB, ensuring high availability, scalability, and performance, along with data modeling and query optimization.
+            </p>
+            <p class="lang_en">
+              &bull; Utilized Python for web scraping to automate data collection and extraction of relevant information for analysis.
+            </p>
+            <p class="lang_en">
+              &bull; Developed GraphQL APIs in Ruby and Node.js, providing a flexible and efficient interface for client-server communication.
+            </p>
+
+            <p class="lang_pt">
+              &bull; Implementei soluções em nuvem utilizando Azure e AWS, provisionando recursos, configurando serviços e garantindo escalabilidade e disponibilidade das aplicações.
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi dashboards interativos no Power BI, integrando dados de múltiplas fontes para criar visualizações claras e intuitivas, facilitando a análise e a tomada de decisões estratégicas.
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi modelos de IA em Python e Azure, aplicando técnicas de aprendizado profundo para classificação de objetos em imagens.
+            </p>
+            <p class="lang_pt">
+              &bull; Administrei bancos de dados NoSQL como o MongoDB e CosmosDB, garantindo alta disponibilidade, escalabilidade e desempenho das aplicações, além de realizar modelagem de dados e otimização de consultas.
+            </p>
+            <p class="lang_pt">
+              &bull; Realizei Web Scraping em Python para coleta automatizada de dados da web, extraindo informações relevantes para análise.
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi APIs GraphQL em Ruby e Node.js, proporcionando uma interface flexível e eficiente para comunicação entre cliente e servidor.
+            </p>
+          </div>
 
       - layout: left
         # border: weak
         title: Filterfeed
-        sub_title: Back-end Developer
-        caption: Mar 2020 - May 2021
+        sub_title: |
+          <div class="lang_en">
+            Back-end Developer
+          </div>
+          <div class="lang_pt">
+            Desenvolvedor Back-end
+          </div>
+        caption: |
+          <div class="lang_en">
+            Mar 2020 - May 2021
+          </div>
+          <div class="lang_pt">
+            Mar 2020 - Mai 2021
+          </div>
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          <p class="lang_en">
-            &bull; Applied NLP techniques in Python for sentiment analysis, information extraction, and text classification using libraries like NLTK and spaCy.
-          </p>
-          <p class="lang_en">
-            &bull; Manipulated and analyzed data using Python, performing data cleaning, transformation, and visualization to generate insights and support decision-making.
-          </p>
-          <p class="lang_en">
-            &bull; Administered MySQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
-          </p>
-          <p class="lang_en">
-            &bull; Developed REST APIs in Python with Django for system integration, exposing data and functionalities following best development and security practices.
-          </p>
-          <p class="lang_en">
-            &bull; Developed chatbots in Python and MySQL, using NLP techniques to filter important information, enhancing user experience with the data.
-          </p>
-          <p class="lang_en">
-            &bull; Implemented Docker/Docker Compose environments to facilitate application distribution and execution, ensuring portability and consistency across different environments.
-          </p>
+          <div>
+            <p class="lang_en">
+              &bull; Applied NLP techniques in Python for sentiment analysis, information extraction, and text classification using libraries like NLTK and spaCy.
+            </p>
+            <p class="lang_en">
+              &bull; Manipulated and analyzed data using Python, performing data cleaning, transformation, and visualization to generate insights and support decision-making.
+            </p>
+            <p class="lang_en">
+              &bull; Administered MySQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+            </p>
+            <p class="lang_en">
+              &bull; Developed REST APIs in Python with Django for system integration, exposing data and functionalities following best development and security practices.
+            </p>
+            <p class="lang_en">
+              &bull; Developed chatbots in Python and MySQL, using NLP techniques to filter important information, enhancing user experience with the data.
+            </p>
+            <p class="lang_en">
+              &bull; Implemented Docker/Docker Compose environments to facilitate application distribution and execution, ensuring portability and consistency across different environments.
+            </p>
+
+            <p class="lang_pt">
+              &bull; Apliquei técnicas de PLN em Python para análise de sentimentos, extração de informações e classificação de textos, utilizando bibliotecas como NLTK e spaCy.
+            </p>
+            <p class="lang_pt">
+              &bull; Manipulei e analisei dados utilizando Python, realizando limpeza, transformação e visualização de dados para geração de insights e apoio na tomada de decisões.
+            </p>
+            <p class="lang_pt">
+              &bull; Administrei banco de dados MySQL, modelando dados, otimizando consultas e garantindo integridade e segurança.
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi REST APIs em Python com Django para integração de sistemas, expondo dados e funcionalidades, seguindo as melhores práticas de desenvolvimento e segurança.
+            </p>
+            <p class="lang_pt">
+              &bull; Desenvolvi chatbots em Python e MySQL, utilizando técnicas de PLN para filtrar as informações importantes, melhorando a experiência do usuário com os dados.
+            </p>
+            <p class="lang_pt">
+              &bull; Implementei ambientes Docker/Docker Compose para facilitar a distribuição e execução de aplicações, garantindo portabilidade e consistência em diferentes ambientes.
+            </p>
+          </div>
         
-  - title: Educational Qualifications
+  - title: |
+      <div class="lang_en">
+        Educational Qualifications
+      </div>
+      <div class="lang_pt">
+        Qualificações Educacionais
+      </div>
     layout: list
     content:
       - layout: top
         title: Universidade de Brasília (UnB)
-        sub_title: Bachelor Degree In Computer Science
-        caption: Jul 2019 - Dec 2024
+        sub_title: |
+          <div class="lang_en">
+            Bachelor Degree in Computer Science
+          </div>
+          <div class="lang_pt">
+            Bacharelado em Ciência da Computação
+          </div>
+        caption: |
+          <div class="lang_en">
+            Jul 2019 - Dec 2024
+          </div>
+          <div class="lang_pt">
+            Jul 2019 - Dez 2022
+          </div>
         # quote: >
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
@@ -234,19 +406,50 @@ content:
 
       - layout: top
         title: Escola Técnica de Ceilândia (ETC)
-        sub_title: Technical Degree In Informatics
-        caption: Jan 2017 - Dec 2018
+        sub_title: |
+          <div class="lang_en">
+            Technical Degree in Informatics
+          </div>
+          <div class="lang_pt">
+            Técnico em Informática
+          </div>
+        caption: |
+          <div class="lang_en">
+            Jan 2017 - Dec 2018
+          </div>
+          <div class="lang_pt">
+            Jan 2017 - Dez 2018
+          </div>
 
-  - title: Publications
+  - title: |
+      <div class="lang_en">
+        Publications
+      </div>
+      <div class="lang_pt">
+        Publicações
+      </div>
     layout: text
     content: |
-      <p class="lang_en">
-        &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
-      </p>
-      <br>
-      <p class="lang_pt">
-        &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
-      </p>
+      <div>
+        <!-- <p class="lang_en">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Published at SIBGRAPI 2024.
+        </p> -->
+        <p class="lang_en">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
+        </p>
+        <p class="mb-0 lang_en">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Presented at the 28th Scientific Initiation Congress of UnB and the 19th Scientific Initiation Congress of DF.
+        </p>
+        <!-- <p class="lang_pt">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Publicado no SIBGRAPI 2024.
+        </p> -->
+        <p class="lang_pt">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
+        </p>
+        <p class="mb-0 lang_pt">
+          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Apresentado no 28° Congresso de Iniciação Científica da UnB e do 19° Congresso de Iniciação Científica do DF.
+        </p>
+      </div>
 
 # Footer
 footer_show_references: true
