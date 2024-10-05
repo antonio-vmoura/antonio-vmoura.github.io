@@ -1,6 +1,56 @@
-# vmoura_cv
+# My Resume
 
-Data Scientist with over 4 years of experience, specializing in machine learning and currently pursuing a degree in Computer Science at the University of Brasília (UnB). I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. Passionate about artificial intelligence, I have published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
+This repository contains a personal resume built with a static theme using **Jekyll**, hosted on **GitHub Pages**. You can view the live version [here](https://antonio-vmoura.github.io/).
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Running Locally](#running-locally)
 
-link: https://antonio-vmoura.github.io/
+## Introduction
+
+This project leverages **Jekyll** to generate a static site, making it easy to deploy and manage. To run the site locally, follow the steps outlined below.
+
+## Prerequisites
+
+Before you begin, ensure the following tools are installed on your system:
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (at least version 2.5)
+- [Bundler](https://bundler.io/) gem
+- Basic familiarity with **GitHub Pages** and **Jekyll**
+
+For detailed instructions on Jekyll installation, refer to the official [Jekyll documentation](https://jekyllrb.com/docs/installation/).
+
+## Running Locally
+
+Follow these steps to clone and run the project locally:
+
+1. Clone the resume repository:
+
+   ```bash
+   git clone https://github.com/antonio-vmoura/antonio-vmoura.github.io.git
+   ```
+
+2. Navigate to the project directory::
+
+   ```bash
+   cd your-repository
+   ```
+
+3. Install the project dependencies::
+
+   ```bash
+   bundle install
+   ```
+
+4. Run Jekyll::
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+5. Open your browser and go to::
+
+   ```bash
+   http://localhost:4000
+    ```
