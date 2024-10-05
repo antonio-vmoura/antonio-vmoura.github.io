@@ -101,6 +101,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.resume_file -%}
+          <li>
+            <a id="resume_file" target="_blank" href="{{ site.resume_file }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-arrow-down" title="Pdf Download"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}
