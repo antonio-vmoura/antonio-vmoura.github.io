@@ -34,7 +34,7 @@ Follow these steps to clone and run the project locally:
 2. Navigate to the project directory::
 
    ```bash
-   cd your-repository
+   cd antonio-vmoura.github.io.git
    ```
 
 3. Install the project dependencies::
