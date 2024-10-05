@@ -430,32 +430,34 @@ content:
       <div class="lang_pt">
         Publicações
       </div>
-    layout: text
-    content: |
-      <div>
-        <p class="lang_en">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Published at WVC 2024.
-        </p> 
-        <br>
-        <p class="lang_en">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
-        </p>
-        <br>
-        <p class="mb-0 lang_en">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Presented at the 28th Scientific Initiation Congress of UnB and the 19th Scientific Initiation Congress of DF.
-        </p>
-        <p class="lang_pt">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Publicado no WVC 2024.
-        </p> 
-        <br>
-        <p class="lang_pt">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
-        </p>
-        <br>
-        <p class="mb-0 lang_pt">
-          &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Apresentado no 28° Congresso de Iniciação Científica da UnB e do 19° Congresso de Iniciação Científica do DF.
-        </p>
-      </div>
+    layout: list
+    content: 
+      - layout: top
+        description: |
+          <div>
+            <p class="lang_en">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Published at WVC 2024.
+            </p> 
+            <br>
+            <p class="lang_en">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Presented at the 29th Scientific Initiation Congress of UnB and the 20th Scientific Initiation Congress of DF. Awarded Honorable Mention.
+            </p>
+            <br>
+            <p class="mb-0 lang_en">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Presented at the 28th Scientific Initiation Congress of UnB and the 19th Scientific Initiation Congress of DF.
+            </p>
+            <p class="lang_pt">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2024). “Segmentation of skin lesions and their attributes in dermatoscopic images based on convolutional neural networks”. Publicado no WVC 2024.
+            </p> 
+            <br>
+            <p class="lang_pt">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2023). “A Comparison of Mask R-CNN and U-Net for Melanoma Attribute Segmentation”. Apresentado no 29° Congresso de Iniciação Científica da UnB e 20° Congresso de Iniciação Científica do do DF. Agraciado com Menção Honrosa.
+            </p>
+            <br>
+            <p class="mb-0 lang_pt">
+              &bull; Rodrigues, A. V. M., & Oliveira, R. B. (2022). “Uma U-net Melhorada para Segmentação de Câncer de Pele em Imagens Dermatoscópicas”. Apresentado no 28° Congresso de Iniciação Científica da UnB e do 19° Congresso de Iniciação Científica do DF.
+            </p>
+          </div>
 
   - title: |
       <div class="lang_en">
@@ -464,32 +466,34 @@ content:
       <div class="lang_pt">
         Proficiência Em Idiomas
       </div>
-    layout: text
-    content: |
-      <div>
-        <p class="lang_en">
-          &bull; Brazilian Portuguese - Native
-        </p>
-        <br>
-        <p class="mb-0 lang_en">
-          &bull; American English - Advanced
-        </p>
-        <br>
-        <p class="mb-0 lang_en">
-          &bull; Spanish - Intermediate
-        </p>
-        <p class="lang_pt">
-          &bull; Português - Nativo
-        </p>
-        <br>
-        <p class="mb-0 lang_pt">
-          &bull; Inglês americano - Avançado
-        </p>
-        <br>
-        <p class="mb-0 lang_pt">
-          &bull; Espanhol - Intermediário
-        </p>
-      </div>
+    layout: list
+    content: 
+    - layout: top
+      description: |
+        <div>
+          <p class="lang_en">
+            &bull; Brazilian Portuguese - Native
+          </p>
+          <br>
+          <p class="mb-0 lang_en">
+            &bull; American English - Advanced
+          </p>
+          <br>
+          <p class="mb-0 lang_en">
+            &bull; Spanish - Intermediate
+          </p>
+          <p class="lang_pt">
+            &bull; Português - Nativo
+          </p>
+          <br>
+          <p class="mb-0 lang_pt">
+            &bull; Inglês americano - Avançado
+          </p>
+          <br>
+          <p class="mb-0 lang_pt">
+            &bull; Espanhol - Intermediário
+          </p>
+        </div>
 
 # Footer
 footer_show_references: true
