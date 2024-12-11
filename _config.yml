@@ -17,7 +17,14 @@ title: |
     Cientista de dados | Consultor de TI | Desenvolvedor back-end
   </div>
 email: avmoura.r@gmail.com # email_title: Email
-address: Brasília · Federal District, Brazil # address_title: Address
+address: |
+  <div class="lang_en">
+    Brasília · Federal District, Brazil
+  </div>
+  <div class="lang_pt">
+    Brasília · Distrito Federal, Brasil
+  </div>
+# address_title: Address
 # phone: +55 (61) 988186-0680 # phone_title: Phone
 
 # Social links
