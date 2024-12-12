@@ -19,13 +19,11 @@ title: |
 # email_title: Email
 email: avmoura.r@gmail.com 
 # address_title: Address
-address: |
-  <div class="lang_en">
-    Brasília · Federal District, Brazil
-  </div>
-  <div class="lang_pt">
-    Brasília · Distrito Federal, Brasil
-  </div>
+address:
+  <a class="lang_en" href="https://www.google.com/maps/place/Brasília+-+Federal+District,+Brazil" target="_blank">Brasília · Federal District, Brazil</a>
+  <a class="lang_pt" href="https://www.google.com/maps/place/Brasília+-+Federal+District,+Brazil" target="_blank">Brasília · Distrito Federal, Brasil</a>
+  # <div class="lang_en">Brasília · Federal District, Brazil</div>
+  # <div class="lang_pt">Brasília · Distrito Federal, Brasil</div>
 
 # phone: +55 (61) 988186-0680 # phone_title: Phone
 
