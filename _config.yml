@@ -41,10 +41,10 @@ about_title: |
 about_profile_image: assets/img/av_perfil_3.jpg
 about_content: |
   <p class="lang_en">
-    Data Scientist with over 4 years of experience, specializing in machine learning and currently pursuing a degree in Computer Science at the University of Brasília (UnB). I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. Passionate about artificial intelligence, I have published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
+    Data Scientist with over 4 years of experience, specializing in machine learning. Graduated in Computer Science from the University of Brasília (UnB) and currently pursuing a master's degree at the same institution. I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. Passionate about artificial intelligence, I have published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
   </p>
   <p class="lang_pt">
-    Cientista de Dados com mais de 4 anos de experiência, especializado em aprendizado de máquina e cursando Ciência da Computação na Universidade de Brasília (UnB). Tenho uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
+    Cientista de Dados com mais de 4 anos de experiência, especializado em aprendizado de máquina. Graduado em Ciência da Computação pela Universidade de Brasília (UnB) e atualmente mestrando na mesma instituição. Possuo uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
   </p>
 
 content:
@@ -404,6 +404,23 @@ content:
       </div>
     layout: list
     content:
+      - layout: top
+        title: Universidade de Brasília (UnB)
+        sub_title: |
+          <p class="lang_en">
+            Master's degree in Computer Systems
+          </p>
+          <p class="lang_pt">
+            Mestrado em Sistemas de Computação
+          </p>
+        caption: |
+          <p class="lang_en">
+            Mar 2025 - Dec 2026
+          </p>
+          <p class="lang_pt">
+            Mar 2025 - Dez 2026
+          </p>
+
       - layout: top
         title: Universidade de Brasília (UnB)
         sub_title: |
