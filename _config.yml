@@ -304,7 +304,7 @@ content:
           </div>
 
       - layout: left
-        border: weak
+        # border: weak
         title: Filterfeed
         sub_title: |
           <p class="lang_en">
@@ -364,36 +364,36 @@ content:
             </p>
           </div>
 
-      - layout: left
-        # border: weak
-        title: Freelancer
-        sub_title: |
-          <p class="lang_en">
-            Back-end Developer
-          </p>
-          <p class="lang_pt">
-            Desenvolvedor Back-end
-          </p>
-        caption: |
-          <p class="lang_en">
-            Jan 2020 - Dec 2021
-          </p>
-          <p class="lang_pt">
-            Jan 2020 - Dez 2021
-          </p>
-        # link: Link to company (optional)
-        # quote: >
-        #   Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          <div>
-            <p class="lang_en">
-              &bull; Executed data analysis projects using Python and R for statistical analysis, data visualization, and report generation.
-            </p>
+      # - layout: left
+      #   # border: weak
+      #   title: Freelancer
+      #   sub_title: |
+      #     <p class="lang_en">
+      #       Back-end Developer
+      #     </p>
+      #     <p class="lang_pt">
+      #       Desenvolvedor Back-end
+      #     </p>
+      #   caption: |
+      #     <p class="lang_en">
+      #       Jan 2020 - Dec 2021
+      #     </p>
+      #     <p class="lang_pt">
+      #       Jan 2020 - Dez 2021
+      #     </p>
+      #   # link: Link to company (optional)
+      #   # quote: >
+      #   #   Short description of the company (optional)
+      #   description: | # this will include new lines to allow paragraphs
+      #     <div>
+      #       <p class="lang_en">
+      #         &bull; Executed data analysis projects using Python and R for statistical analysis, data visualization, and report generation.
+      #       </p>
 
-            <p class="lang_pt">
-              &bull; Realizei projetos de análise de dados utilizando Python e R para análise estatística, visualização de dados e geração de relatórios.
-            </p>
-          </div>
+      #       <p class="lang_pt">
+      #         &bull; Realizei projetos de análise de dados utilizando Python e R para análise estatística, visualização de dados e geração de relatórios.
+      #       </p>
+      #     </div>
         
   - title: |
       <div class="lang_en">
