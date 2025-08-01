@@ -63,7 +63,7 @@ content:
             Hard Skills
           </div>
         description: |
-          <div>
+          <div class="lang_en">
             <p>
               &bull; Python
             </p>
@@ -86,7 +86,34 @@ content:
               &bull; Spark; Hadoop
             </p>
             <p>
-              &bull; Docker; Docker compose
+              &bull; Databricks; Docker
+            </p>
+          </div>
+
+          <div class="lang_pt">
+            <p>
+              &bull; Python
+            </p>
+            <p>
+              &bull; R; C++; Ruby; Node
+            </p>
+            <p>
+              &bull; AWS; Azure
+            </p>
+            <p>
+              &bull; Aplicações SAS
+            </p>
+            <p>
+              &bull; REST APIs
+            </p>
+            <p>
+              &bull; MySQL; Mongodb; Postgresql
+            </p>
+            <p>
+              &bull; Spark; Hadoop
+            </p>
+            <p>
+              &bull; Databricks; Docker
             </p>
           </div>
           
@@ -194,7 +221,7 @@ content:
               &bull; Implemented and managed cloud solutions on Azure, ensuring scalability and availability.
             </p>
             <p class="lang_en">
-              &bull; Administered PostgreSQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+              &bull; Administered PostgreSQL databases, modeling data, optimizing queries, and ensuring data integrity.
             </p>
             <p class="lang_en">
               &bull; Developed REST APIs in Python with Flask for system integration, efficiently exposing data and functionalities.
@@ -203,10 +230,10 @@ content:
               &bull; Utilized Big Data tools like Hadoop and Spark for processing and analyzing large data volumes.
             </p>
             <p class="lang_en">
-              &bull; Implemented and trained a LLM using Python to analyze documents and automate rule generation.
+              &bull; Implemented an LLM using Python to interpret documents and automatically generate rules based on the content.
             </p>
             <p class="lang_en">
-              &bull; Participated in key projects with companies such as Bradesco, Santander, Oi, and Vivo, delivering practical and effective solutions to business challenges.
+              &bull; Participated in key projects with companies such as Santander, Bradesco, Ambev, Vivo, Oi e Vale.
             </p>
             <p class="lang_en">
               &bull; Delivered training sessions on the analytical data lifecycle, covering collection, exploration, deployment, and orchestration, preparing teams for the strategic use of information.
@@ -223,7 +250,7 @@ content:
               &bull; Implementei e gerenciei soluções em nuvem na Azure, garantindo escalabilidade e disponibilidade.
             </p>
             <p class="lang_pt">
-              &bull; Administrei banco de dados PostgreSQL, modelando dados, otimizando consultas e assegurando integridade e segurança das informações. 
+              &bull; Administrei banco de dados PostgreSQL, modelando dados, otimizando consultas e assegurando integridade das informações.
             </p>
             <p class="lang_pt">
               &bull; Desenvolvi REST APIs em Python com Flask para integração de sistemas, expondo dados e funcionalidades de forma eficiente. 
@@ -232,10 +259,10 @@ content:
               &bull; Utilizei ferramentas de Big Data como Hadoop e Spark para processamento e análise de grandes volumes de dados. 
             </p>
             <p class="lang_pt">
-              &bull; Implementei e treinei uma LLM utilizando Python para entender documentos e criar regras.
+              &bull; Implementei uma LLM com Python para interpretar documentos e gerar regras automaticamente a partir do conteúdo.
             </p>
             <p class="lang_pt">
-              &bull; Participei de projetos relevantes em empresas como Bradesco, Santander, Oi e Vivo, desenvolvendo soluções práticas e eficazes para desafios de negócios. 
+              &bull; Participei de projetos relevantes em empresas como Santander, Bradesco, Ambev, Vivo, Oi e Vale. 
             </p>
             <p class="lang_pt">
               &bull; Ministrei treinamentos sobre o ciclo de vida analítico de dados, abordando coleta, exploração, implantação e orquestração, preparando equipes para o uso estratégico das informações.
@@ -332,7 +359,7 @@ content:
               &bull; Manipulated and analyzed data using Python, performing data cleaning, transformation, and visualization to generate insights and support decision-making.
             </p>
             <p class="lang_en">
-              &bull; Administered MySQL databases, modeling data, optimizing queries, and ensuring data integrity and security.
+              &bull; Managed MySQL databases with a focus on data modeling, query performance, and information security.
             </p>
             <p class="lang_en">
               &bull; Developed REST APIs in Python with Django for system integration, exposing data and functionalities following best development and security practices.
@@ -351,7 +378,7 @@ content:
               &bull; Manipulei e analisei dados utilizando Python, realizando limpeza, transformação e visualização de dados para geração de insights e apoio na tomada de decisões.
             </p>
             <p class="lang_pt">
-              &bull; Administrei banco de dados MySQL, modelando dados, otimizando consultas e garantindo integridade e segurança.
+              &bull; Gerenciei bancos de dados MySQL com foco em modelagem, desempenho de consultas e segurança da informação.
             </p>
             <p class="lang_pt">
               &bull; Desenvolvi REST APIs em Python com Django para integração de sistemas, expondo dados e funcionalidades, seguindo as melhores práticas de desenvolvimento e segurança.
@@ -512,7 +539,7 @@ content:
           </p>
           <br class="lang_en">
           <p class="lang_en">
-            &bull; American English - Advanced
+            &bull; American English - Intermediate
           </p>
           <br class="lang_en">
           <p class="lang_en">
@@ -523,7 +550,7 @@ content:
           </p>
           <br class="lang_pt">
           <p class="lang_pt">
-            &bull; Inglês americano - Avançado
+            &bull; Inglês americano - Intermediário
           </p>
           <br class="lang_pt">
           <p class="lang_pt">
