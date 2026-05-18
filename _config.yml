@@ -11,10 +11,10 @@ version: 2
 name: Antônio Rodrigues
 title: |
   <div class="lang_en">
-    Data Scientist | IT Consultant | Back-end Developer
+    Senior Data Scientist | IT Consultant | Back-end Developer
   </div>
   <div class="lang_pt">
-    Cientista de dados | Consultor de TI | Desenvolvedor back-end
+    Cientista de Dados Sênior | Consultor de TI | Desenvolvedor back-end
   </div>
 # email_title: Email
 email: avmoura.r@gmail.com 
@@ -41,10 +41,10 @@ about_title: |
 about_profile_image: assets/img/av_perfil_3.jpg
 about_content: |
   <p class="lang_en">
-    Data Scientist with over 6 years of experience, specializing in machine learning. Graduated in Computer Science from the University of Brasília (UnB) and currently pursuing a master's degree at the same institution. I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. Passionate about artificial intelligence, I have published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
+    Data Scientist with over 5 years of experience, specializing in machine learning. Graduated in Computer Science from the University of Brasília (UnB) and currently pursuing a master's degree at the same institution. I have a solid background in consulting and back-end development, applying innovative solutions to complex problems. My experience includes implementing robust Data Science solutions, encompassing analysis, visualization, predictive modeling, and decision automation. Passionate about artificial intelligence, I have published articles in the field, focusing on the use of deep learning applied to healthcare. Always seeking new challenges and ready to collaborate on creative and critical projects.
   </p>
   <p class="lang_pt">
-    Cientista de Dados com mais de 6 anos de experiência, especializado em aprendizado de máquina. Graduado em Ciência da Computação pela Universidade de Brasília (UnB) e atualmente mestrando na mesma instituição. Possuo uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
+    Cientista de Dados com mais de 5 anos de experiência, especializado em aprendizado de máquina. Graduado em Ciência da Computação pela Universidade de Brasília (UnB) e atualmente mestrando na mesma instituição. Possuo uma sólida trajetória em consultoria e desenvolvimento back-end, aplicando soluções inovadoras a problemas complexos. Minha experiência abrange a implementação de soluções robustas em Ciência de Dados, incluindo análise, visualização, criação de modelos preditivos e automação de decisões. Sou apaixonado por inteligência artificial, com artigos publicados na área, focando no uso de aprendizado profundo aplicado à saúde. Sempre em busca de novos desafios e pronto para colaborar em projetos criativos e críticos.
   </p>
 
 content:
